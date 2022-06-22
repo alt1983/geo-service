@@ -9,7 +9,7 @@ public class GeoServiceImpl implements GeoService {
     public static final String MOSCOW_IP = "172.0.32.11";
     public static final String NEW_YORK_IP = "96.44.183.149";
 
-    /**
+    /** 
      * Метод определяет локацию по ip
      */
     public Location byIp(String ip) {
